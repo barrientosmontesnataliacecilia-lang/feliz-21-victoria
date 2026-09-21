@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+width="600" height="600" viewBox="0 0 600 600">
+
+<rect width="600" height="600" fill="#fffaf0"/>
+
+<!-- Tallo -->
+<path d="M300 520 C300 430 300 350 300 300"
+      fill="none"
+      stroke="#4CAF50"
+      stroke-width="14"
+      stroke-linecap="round"/>
+
+<!-- Hojas -->
+<path d="M300 430 C250 390 210 400 190 430 C235 450 270 450 300 430"
+      fill="#66BB6A"/>
+
+<path d="M300 390 C350 350 390 360 410 390 C370 410 335 410 300 390"
+      fill="#66BB6A"/>
+
+<!-- Pétalos -->
+<g fill="#FFD54F" stroke="#F9A825" stroke-width="3">
+    <ellipse cx="300" cy="190" rx="45" ry="100"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(22.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(45 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(67.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(90 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(112.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(135 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(157.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(180 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(202.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(225 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(247.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(270 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(292.5 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(315 300 300)"/>
+    <ellipse cx="300" cy="190" rx="45" ry="100"
+             transform="rotate(337.5 300 300)"/>
+</g>
+
+<!-- Centro -->
+<circle cx="300" cy="300" r="65"
+        fill="#8D6E63"
+        stroke="#5D4037"
+        stroke-width="5"/>
+
+<circle cx="300" cy="300" r="48" fill="#A1887F"/>
+
+<!-- Mensaje -->
+<text x="300" y="570"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="30"
+      font-weight="bold"
+      fill="#5D4037">
+    Feliz 21, TQM Victoria 💛
+</text>
+
+</svg>
